@@ -36,5 +36,3 @@ This repository will hold the publicly released anonymized logs and scripts for 
    - 7 questions for the midterm  
    - 8 questions for the final  
    These logs were excluded under the assumption that a valid student log should include exactly all assigned questions for the midterm/final.
-
-<sub>_Updated by HarryH on June 2025_</sub>
