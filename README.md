@@ -27,7 +27,7 @@ This repository will hold the publicly released anonymized logs and scripts for 
 #### Non-Time-Related Cleaning
 1. `clean_non_time_final.tsv` and `clean_non_time_mid.tsv`  
    Contain the cleaned non-time-related datasets for the final and midterm exams, respectively.  
-   Each included student ID has a complete set of questions.
+   Each included student ID has a complete set of questions. **It may contains entries with negative `curr_time` value.**
 
 > The `.tsv` files below contain discarded entries from the original dataset from `clean_non_time_final.tsv`, `clean_non_time_mid.tsv`:
 2. `incomplete_non_time_final.tsv` and `incomplete_non_time_mid.tsv`  
