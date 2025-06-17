@@ -1,7 +1,6 @@
 This repository will hold the publicly released anonymized logs and scripts for DOI 10.1145/3478432.3499123
 
-### Updated on June 17, 2025
-_Prepared by HarryH_
+### Update on June 17, 2025
 - Clarified column names in the original log datasets as follows:
   - `curr_time`: Elapsed time in milliseconds  
   - `id`: Student ID  
@@ -37,3 +36,4 @@ _Prepared by HarryH_
    - 7 questions for the midterm  
    - 8 questions for the final  
    These logs were excluded under the assumption that a valid student log should include exactly all assigned questions for the midterm/final.
+<sub>_Updated by HarryH_</sub>
