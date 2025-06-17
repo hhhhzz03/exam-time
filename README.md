@@ -12,7 +12,7 @@ This repository will hold the publicly released anonymized logs and scripts for 
    Contain the cleaned time-related datasets for the final and midterm exams, respectively.  
    Each included student ID has only valid (non-negative) `curr_time` entries and a complete set of questions.
 
-> The `.tsv` files below contain discarded entries from the original dataset from  `clean_time_final.tsv`, `clean_time_mid.tsv`:
+> The `.tsv` files below contain discarded entries from the original dataset during the cleaning process:
 2. `corrupted_time_final.tsv` and `corrupted_time_mid.tsv`
    Contain all log entries for any student ID with at least one negative `curr_time` value.  
    These entries were excluded under the assumption that negative timestamps indicate a corrupted log.
@@ -27,9 +27,10 @@ This repository will hold the publicly released anonymized logs and scripts for 
 #### Non-Time-Related Cleaning
 1. `clean_non_time_final.tsv` and `clean_non_time_mid.tsv`  
    Contain the cleaned non-time-related datasets for the final and midterm exams, respectively.  
-   Each included student ID has a complete set of questions. **It may contains entries with negative `curr_time` value.**
+   Each included student ID has a complete set of questions.
+   These files may contain entries with negative `curr_time` values, as time was not a criterion for this cleaning.
 
-> The `.tsv` files below contain discarded entries from the original dataset from `clean_non_time_final.tsv`, `clean_non_time_mid.tsv`:
+> The `.tsv` files below contain discarded entries from the original dataset during the cleaning process:
 2. `incomplete_non_time_final.tsv` and `incomplete_non_time_mid.tsv`  
    Contain all log entries for student IDs who viewed fewer or more than the number of questions assigned in the exam:
    - 7 questions for the midterm  
