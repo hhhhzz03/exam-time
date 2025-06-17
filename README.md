@@ -1,6 +1,6 @@
 This repository will hold the publicly released anonymized logs and scripts for DOI 10.1145/3478432.3499123
 
-### Update on June 17, 2025
+### Update on June 17, 2025 by Harry
 - Clarified column names in the original log datasets as follows:
   - `curr_time`: Elapsed time in milliseconds  
   - `id`: Student ID  
