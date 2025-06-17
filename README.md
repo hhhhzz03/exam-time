@@ -20,7 +20,7 @@ This repository will hold the publicly released anonymized logs and scripts for 
    Contain all log entries for student IDs who viewed fewer or more than the number of questions assigned in the exam:
    - 7 questions for the midterm  
    - 8 questions for the final  
-   These logs were excluded based on the assumption that a valid student log should include exactly all assigned questions on midterm/final.
+   These logs were excluded based on the assumption that a valid student log should include exactly all assigned questions for the midterm/final.
 
 ---
 
@@ -35,4 +35,4 @@ This repository will hold the publicly released anonymized logs and scripts for 
    Contain all log entries for student IDs who viewed fewer or more than the number of questions assigned in the exam:
    - 7 questions for the midterm  
    - 8 questions for the final  
-   These logs were excluded under the assumption that a valid student log should include exactly all assigned questions on midterm/final.
+   These logs were excluded under the assumption that a valid student log should include exactly all assigned questions for the midterm/final.
