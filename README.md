@@ -12,16 +12,17 @@ The `.tsv` files listed below contain entries that were removed from the origina
 #### Time-Related Cleaning
 1. `corrupted_time_final.tsv` and `corrupted_time_mid.tsv`:  
    Contain all log entries for any student ID that had at least one negative `curr_time` entry in the logs.  
-   These entries were excluded under the assumption that negative timestamps indicate corruption or logging errors.
+These entries were excluded under the assumption that negative timestamps indicate corruption or logging errors.
+
 2. `incomplete_time_final.tsv` and `incomplete_time_mid.tsv`:  
    Contain all log entries for student IDs who viewed fewer/more than the number of questions assigned in the exam:
    - 7 questions for the midterm  
    - 8 questions for the final  
-   These students' logs were excluded based on the assumption that a valid student log is expected to include exactly all questions assigned.
+These students' logs were excluded based on the assumption that a valid student log is expected to include exactly all questions assigned.
 
 #### Non-Time-Related Cleaning
 1. `incomplete_non_time_final.tsv` and `incomplete_non_time_mid.tsv`:  
    Contain all log entries for student IDs who viewed fewer/more than the number of questions assigned in the exam:
    - 7 questions for the midterm  
    - 8 questions for the final  
-   These students' logs were excluded based on the assumption that a valid student log is expected to include exactly all questions assigned.
+These students' logs were excluded based on the assumption that a valid student log is expected to include exactly all questions assigned.
