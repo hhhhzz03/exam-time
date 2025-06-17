@@ -8,7 +8,7 @@ This repository will hold the publicly released anonymized logs and scripts for 
   - `score`: Student's score at the corresponding timestamp
 
 
-The `.tsv` files listed below contain entries that were removed from the original dataset during cleaning process.
+(The `.tsv` files listed below contain entries that were removed from the original dataset during cleaning process.)
 #### Time-Related Cleaning
 1. `corrupted_time_final.tsv` and `corrupted_time_mid.tsv`:  
    Contain all log entries for any student ID that had at least one negative `curr_time` entry in the logs.  
